@@ -1,0 +1,30 @@
+1.  Reinforcement learning using models
+
+	Assumes that the agent can access or learn a model of the environment.
+
+	The model explains the benefits as well as the transition probabilities or how actions change between instances.
+
+	This model enables the agent to plan ahead by simulating potential actions before executing them.
+
+	Examples of algorithms are value iteration and policy iteration.
+
+
+	Advantages: More sample-efficient and faster convergence.
+
+	Disadvantages: Requires a deep understanding of the environment model, which is not always possible.
+
+
+
+2.  Reinforcement learning without models
+
+	The agent does not need a model of the environment.
+
+	Interacts with the environment to gain direct experience.
+
+	Improves its policy only by considering situations and observed rewards.
+
+	Examples of algorithms are policy sequencing, SARSA, and Q-learning.
+
+	Advantages: Works even in unknown environments.
+
+	Disadvantages: Requires a lot of interaction and is slow to converge (sample-inefficient).
